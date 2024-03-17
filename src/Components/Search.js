@@ -46,6 +46,7 @@ function Search() {
     }
 
     handleAddResident(student);
+    setFormState(SEARCH_INITIAL_STATE);
   };
 
   return (
