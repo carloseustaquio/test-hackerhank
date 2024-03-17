@@ -59,6 +59,7 @@ function Search() {
             data-testid="studentName"
             type="text"
             className="mr-30 mt-10"
+            value={formState.studentName}
             onChange={handleChange("studentName")}
           />
         </div>
@@ -71,6 +72,7 @@ function Search() {
             data-testid="joiningDate"
             type="date"
             className="mr-30 mt-10"
+            value={formState.joiningDate}
             onChange={handleChange("joiningDate")}
           />
         </div>
